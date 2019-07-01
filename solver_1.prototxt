@@ -1,0 +1,15 @@
+test_iter: 3
+test_interval: 2
+base_lr: 0.00999999977648
+display: 1
+max_iter: 200
+lr_policy: "step"
+gamma: 0.10000000149
+momentum: 0.899999976158
+weight_decay: 9.99999974738e-05
+stepsize: 66
+snapshot: 50
+snapshot_prefix: "/home/dell/deep/snapshot"
+solver_mode: CPU
+net: "/home/dell/deep/caffenet_train_val_1.prototxt"
+solver_type: SGD
